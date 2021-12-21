@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter Card UI</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="twitter__card-ui">
+        <div class="top__content">
+            <img class="top__content-img" src="img/bg-img.jpeg" alt="backgroung-image">
+        </div>
+
+        <div class="user__avatar">
+                <img class="user__avatar-img" src="img/avatar-img.jpeg" alt="user-image">
+        </div>
+
+    <div class="counter-block">
+        <div class="count__info">
+            <div class="count__info-tweets">
+                <p class="count__info-title">777<br>
+                    TWEETS
+                </p>
+            </div>
+            <div class="count__info-followers">
+                <p class="count__info-title"> <span id="countFollowers">100,500</span> <br>
+                    FOLLOWERS</p>
+            </div>
+        </div>
+
+            <div class="btn"><button class="follow-btn" id="btn" type="button" onclick="changeButtonState()">FOLLOW</button>
+            </div>
+    </div>
+</div>
+
+</body>
+<script src="js/main.js"></script>
+</html>
+
